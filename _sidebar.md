@@ -1,7 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* [入门](/)
+入门
+* [介绍](/)
 * [快速开始](/zh-cn/quickstart)
 
-
-* [服务端开发](/zh-cn/server)
+eagle-eye
+* [Eagle-eye-sdk](/zh-cn/eagle/ "Eagle-eye 一款全埋点监控")
+* [Eagle-eye-server](/zh-cn/eagle/server)
