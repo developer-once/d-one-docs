@@ -8,6 +8,6 @@ COPY . /docs
 
 RUN npm install docsify-cli@latest -g --registry=https://registry.npm.taobao.org
 
-EXPOSE 3000/tcp
+EXPOSE 3000
 
-ENTRYPOINT docsify serve .
+CMD docsify serve .

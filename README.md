@@ -8,7 +8,7 @@ Eagle-eye 是一款全埋点的监控 SDK，只需简单的引入和传入配置
 
 ```js
 // npm install package
-npm install @baishan/eagle-eye-sdk -S
+npm install eagle-eye-sdk -S
 
 // app.ts
 import { initMonitor } from 'eagle-eye-sdk';
