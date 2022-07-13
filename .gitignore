@@ -8,6 +8,7 @@
 .idea
 .prettierrc
 .eslintrc.js
+docker-compose.yml
 
 # testing
 /coverage
