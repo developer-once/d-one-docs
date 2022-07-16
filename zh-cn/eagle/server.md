@@ -8,7 +8,7 @@ $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### 描述
+### 准备
 
 请先阅读文档与了解如何进行 Node-Egg 项目的开发
 
@@ -131,7 +131,7 @@ docker rmi $(docker images | grep "none" | awk '{print $3}')
 
 #### 完整部署流程
 
-需要提前构建 docker 镜像并上传到公司 docker 仓库
+需要提前构建 docker 镜像并上传到 docker 仓库
 
 ```
 0. 确保项目本地 npm run start 可以正常启动。 （项目 TS 编写 需要 npm run tsc 才能启动 start 否则只能 npm run dev）

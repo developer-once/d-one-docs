@@ -1,11 +1,11 @@
 # 什么是 D-One
 
-**「D-One」** 是解决项目从新建到发布的全流程平台
 
+**D-One** 是一个从项目创建到发布的全流程平台，无论是 Pro Code 还是 搭建 Low Code 都可以在 D-One 上直接创建、构建与发布、灰度、回滚、监控、AB测试。D-One 同样具备连接基础设施服务 FaaS 和 OneAPI 生成代码的能力。
 
-D-One 是一个从项目创建到发布的全流程平台，无论是 Pro Code 还是 搭建 Low Code 都可以在 D-One 上直接创建、构建与发布、灰度、回滚、监控、AB测试。D-One 同样具备连接基础设施服务 FaaS 和 OneAPI 生成代码的能力。
 
 ![](http://rewife26n.hn-bkt.clouddn.com/d-one.png?e=1657622561&token=8oN7KZvLQoSMwj-Juc00wXtYyhTh6-odc_1pueNd:nYlbgjMvOHFPDGSqoBFw9QxoH0Y=)
+
 
 D-One 更像是一个前端工程化集，将前端本地的 cli、tools、components、utils、 Low Code、build 等等这些工具服务统一搬到线上去的平台。
 

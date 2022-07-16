@@ -4,16 +4,16 @@ Eagle-eye 是一款全埋点的监控 SDK，只需简单的引入和传入配置
 
 ## 接入方式
 
-### Npm
+### npm
 
 只需要引入并初始化， SDK 就会开始进行默认的全埋点监控。对用户的点击事件进行上报，以及默认使用。
 
 ```js
 // npm install package
-npm install eagle-eye-sdk -S
+npm i @developer-ones/eagle-eye-sdk -S
 
 // app.ts
-import { initMonitor } from 'eagle-eye-sdk';
+import { initMonitor } from '@developer-ones/eagle-eye-sdk';
 const monitor = initMonitor({
   app_key: "appkey",
   startTime: new Date().getTime(),
