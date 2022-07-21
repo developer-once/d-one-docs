@@ -115,13 +115,13 @@ docker-compose up -d
 ## docker 启动 base 服务
 docker-compose -f docker-compose-base.yml up -d
 
-## 获取 docker 进程ID
+## 获取 docker 所有容器列表(包括未运行的)
 docker ps -a
 
-## docker 登陆镜像 sh
+## docker 登陆容器 sh
 docker exec -it 3d6458a312d0 sh
 
-## docker 干掉进程
+## docker 移除所有容器
 docker rm $(docker ps -a -q)
 
 ## docker 删除 none tag images
