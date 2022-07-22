@@ -4,5 +4,6 @@
 * [介绍](/)
 
 eagle-eye
-* [Eagle-eye-sdk](/zh-cn/eagle/ "Eagle-eye 一款开箱即用的全埋点监控")
-* [Eagle-eye-server](/zh-cn/eagle/server)
+* [eagle-eye-sdk](/zh-cn/eagle/ "eagle-eye 一款开箱即用的全埋点监控")
+* [eagle-eye-plugin](/zh-cn/eagle/plugin)
+* [eagle-eye-server](/zh-cn/eagle/server)
