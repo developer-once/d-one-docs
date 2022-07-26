@@ -2,10 +2,7 @@
 
 > 本文介绍如何使用 verdaccio 搭建 npm 仓库
 
-verdaccio 有两种安装方法，一种是直接安装，一种是用 docker 镜像。
-
-## 直接安装
-
+verdaccio 有两种安装方法，一种是直接安装，一种是用 docker 镜像，这里推荐使用 docker 部署的方式。
 
 ## docker 部署（推荐）
 
