@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 入门
-* [介绍](/)
+* [什么是 D-One](/)
 
 工程化
 * [工程化的意义](/zh-cn/engineering/ "工程化解决方案")
