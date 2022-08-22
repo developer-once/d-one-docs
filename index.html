@@ -44,6 +44,20 @@
         //       );
         //     });
         // },
+        // ------------ Footer ------------
+        function(hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<div style="text-align: center;">Released under the MIT License.</div>',
+            '<div style="text-align: center;">Copyright © 2022 <a href="https://github.com/MriLiuJY">Buyu</a> </div>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
       ],
     }
   </script>
