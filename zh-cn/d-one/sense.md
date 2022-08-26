@@ -54,3 +54,12 @@
 * 开发：mockjs、引入监控、性能优化
 * 低代码平台：将前端研发能力下发至每一个人
 * 构建 & 发布：统一的构建 & 发布 平台会使得业务整体上发布流程可追溯、可回滚
+
+
+## 推荐
+
+在这里向大家推荐 D-One 的工程化全家桶套件
+
+* one-cli：   https://github.com/developer-once/one-cli
+* utils：     https://github.com/developer-once/one-utils
+* 私有化监控：  https://github.com/developer-once/eagle-eye-sdk

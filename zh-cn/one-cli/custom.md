@@ -35,7 +35,53 @@
 2. 之后在 /src/config.json 中新增对应的 choices[item].value 的配置，就可以完成对 init 命令的定制化改造，以符合开发者的团队实际需求。
 3. 同时 question 中我们提供了一些项目基础信息的输入配置，可以在 question 中新增新的问题完成更适合团队需求的配置。
 
+```js
+import inquirer from 'inquirer';
+// ----- template 配置仓库 -----
+import config from '../config.json';
+// ----- clone git 仓库与修改 package.json -----
+import downloadReport from '../utils/index';
+
+const question = [
+  // --- 模版 ---
+  {
+    type: 'list',
+    name: 'template',
+    choices: [
+      // ---- 在此处新增模版 ----
+      { value: 'vite-react-ts', name: 'vite react-ts template (vite 模版)' },
+    ],
+    default: ['vite-react-ts'],
+    message: '选择将要初始化的模版',
+  },
+  // ... 其余配置项目
+];
+// ---- cli 会根据输入去 clone 对应的仓库 ----
+inquirer.prompt(question).then(async (answers) => {
+  const {
+    template,
+    // --- question 中添加对应配置 ---
+    name,
+    description,
+    author,
+    version,
+  } = answers;
+  await downloadReport((config as any)[template].url, name, description, author, version);
+});
+
+
+```
+
 ### bin name
+
+bin name 是 cli 工具在使用者本地环境命令行中触发命令，可以通过 package.json 中的 "bin" 进行修改来实现自定义，此处可以将 "one" 修改成任意的关键词 xxx，之后在命令行中的使用就变成 `xxx init `或 `xxx create`
+
+<div style="text-align: center; color: #8A8F8D;">
+  <img  src="https://cdn.dev-one.cn/bin-name.png?imageMogr2/thumbnail/400x400"/>
+  <div>修改 package.json 中的 bin</div>
+</div>
+
+
 
 ### 测试
 

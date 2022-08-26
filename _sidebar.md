@@ -10,7 +10,7 @@
 * [定制自己的 Cli](/zh-cn/one-cli/custom)
 
 可复用资产
-* [components](/zh-cn/develop/code-lint)
+* [站点建设](/zh-cn/multiplex/)
 * [hooks](/zh-cn/develop/code-lint)
 * [utils](/zh-cn/develop/code-lint)
 
@@ -29,8 +29,7 @@
 
 体验度量
 
-部署
-
 devOps
+* [环境配置](/zh-cn/devops/)
 * [Nginx 相关](/zh-cn/d-one/ideas)
 * [Docker 相关](/zh-cn/d-one/ideas)
