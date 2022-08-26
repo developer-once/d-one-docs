@@ -1,0 +1,7 @@
+.git
+.history
+.vscode
+.github
+npm-debug.log
+config/*.local.ts
+config/*.local.js

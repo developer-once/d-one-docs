@@ -1,6 +1,6 @@
 FROM node:14.18.1
 
-LABEL description="Eagle-eye-docs"
+LABEL description="d-one-docs"
 
 WORKDIR /docs
 
