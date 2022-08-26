@@ -8,7 +8,8 @@
 初始化
 
 开发
-* [Code review 标准](/zh-cn/develop/code-review)
+* [Code review 标准推荐](/zh-cn/develop/code-review)
+* [Code Lint 规范推荐](/zh-cn/develop/code-lint)
 
 监控
 

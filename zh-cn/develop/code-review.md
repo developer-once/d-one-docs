@@ -1,4 +1,4 @@
-# Code review 标准
+# Code review 标准推荐
 
 ## Review 标准
 * 提交 review 前请务必仔细阅读自己修改的模块和设计到相关业务的影响，不要将未经开发者自查的代码提交 review
