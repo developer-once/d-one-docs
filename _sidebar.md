@@ -11,16 +11,18 @@
 
 可复用资产
 * [站点建设](/zh-cn/multiplex/)
-* [hooks](/zh-cn/develop/code-lint)
-* [utils](/zh-cn/develop/code-lint)
+* [私有 npm 搭建](/zh-cn/multiplex/npm)
 
 开发
-* [Code review 标准推荐](/zh-cn/develop/code-review)
-* [Code Lint 规范推荐](/zh-cn/develop/code-lint)
 * [OneAPI Mocks](/zh-cn/develop/code-lint)
 * [线上 debug](/zh-cn/develop/code-lint)
 * [前端安全生产](/zh-cn/develop/code-lint)
 * [构建 & build script](/zh-cn/develop/code-lint)
+
+规范
+* [Code review 标准推荐](/zh-cn/develop/code-review)
+* [Code Lint 规范推荐](/zh-cn/develop/code-lint)
+* [Git pre-commit](/zh-cn/develop/code-lint)
 
 监控
 * [接入 Eagle-EYE](/zh-cn/develop/code-lint)
@@ -31,5 +33,5 @@
 
 devOps
 * [环境配置](/zh-cn/devops/)
-* [Nginx 相关](/zh-cn/d-one/ideas)
-* [Docker 相关](/zh-cn/d-one/ideas)
+* [Nginx 相关](/zh-cn/devops/nginx)
+* [Docker 相关](/zh-cn/devops/docker)
