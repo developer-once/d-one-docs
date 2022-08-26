@@ -8,6 +8,7 @@
 初始化
 
 开发
+* [Code review 标准](/zh-cn/develop/code-review)
 
 监控
 
