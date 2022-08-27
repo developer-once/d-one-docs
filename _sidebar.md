@@ -20,20 +20,21 @@
 * [构建 & build script](/zh-cn/develop/build)
 
 规范
-* [Code review 标准推荐](/zh-cn/develop/code-review)
-* [Code Lint 规范推荐](/zh-cn/develop/code-lint)
-* [Git pre-commit](/zh-cn/develop/code-lint)
+* [Code review 标准推荐](/zh-cn/norm/code-review)
+* [Code Lint 规范推荐](/zh-cn/norm/code-lint)
+* [Git pre-commit](/zh-cn/norm/pre-commit)
 
 监控
-* [接入 Eagle-EYE](/zh-cn/develop/eagle)
-* [部署 Server](/zh-cn/develop/eagle-server)
-* [Eagle-EYE plugin](/zh-cn/develop/eagle-plugin)
+* [Eagle-EYE 介绍](/zh-cn/eagle/)
+* [SDK 接入](/zh-cn/eagle/quickstart)
+* [部署 Server](/zh-cn/eagle/server)
+* [Eagle-EYE plugin](/zh-cn/eagle/plugin)
 
 搭建
 * [乐高](/zh-cn/legao/)
 
 D-One 平台
-* [乐高](/zh-cn/d-one/)
+* [d-one](/zh-cn/d-one/)
 
 体验度量
 * [性能优化](/zh-cn/experience/)

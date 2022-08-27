@@ -1,4 +1,4 @@
-# eagle-eye server
+# 部署 Server
 
 项目基于 [Egg](https://eggjs.org/zh-cn/intro/index.html) 开发，开发前请参阅 Egg 文档进行基础知识体系构建
 
