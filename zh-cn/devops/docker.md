@@ -30,3 +30,21 @@ docker rmi $(docker images | grep "none" | awk '{print $3}')
 ## docker 删除 docker-image
 docker rmi $docker-image-id
 ```
+
+## Docker 镜像加速
+
+```
+vim /ect/docker/daemon.json
+
+# 配置如下
+# 加速地址 阿里云控制台获取
+# {
+#   "registry-mirrors": ["https://xxx.mirror.aliyuncs.com"]
+# }
+
+# reload 配置
+systemctl daemon-reload
+
+# 重启 docker
+systemctl restart docker
+```

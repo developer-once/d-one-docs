@@ -23,13 +23,21 @@
 * [Code review 标准推荐](/zh-cn/develop/code-review)
 * [Code Lint 规范推荐](/zh-cn/develop/code-lint)
 * [Git pre-commit](/zh-cn/develop/code-lint)
+* [性能优化规范推荐](/zh-cn/develop/code-lint)
 
 监控
 * [接入 Eagle-EYE](/zh-cn/develop/code-lint)
 * [部署 Server](/zh-cn/develop/code-lint)
 * [Eagle-EYE plugin](/zh-cn/develop/code-lint)
 
+搭建
+* [乐高](/zh-cn/develop/code-lint)
+
+D-One 平台
+* [乐高](/zh-cn/develop/code-lint)
+
 体验度量
+* [自查 & 验收 标准](/zh-cn/experience/)
 
 devOps
 * [环境配置](/zh-cn/devops/)
