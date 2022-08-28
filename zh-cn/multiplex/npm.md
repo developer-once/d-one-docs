@@ -2,8 +2,6 @@
 
 > 采用 [Verdaccio](https://github.com/verdaccio/verdaccio) Docker 部署方式搭建
 
-
-
 ## 直接安装
 
 ```
