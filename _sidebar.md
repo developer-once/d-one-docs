@@ -21,8 +21,8 @@
 
 规范
 * [React 代码规范](/zh-cn/norm/react)
+* [可参考规范](/zh-cn/norm/refer)
 * [Code review 标准推荐](/zh-cn/norm/code-review)
-* [Code Lint 规范推荐](/zh-cn/norm/code-lint)
 * [Git pre-commit](/zh-cn/norm/pre-commit)
 
 监控
@@ -39,7 +39,7 @@ D-One 平台
 * [D-One](/zh-cn/d-one/)
 
 体验度量
-* [性能优化](/zh-cn/experience/)
+* [性能优化](/zh-cn/experience/performance)
 * [自查 & 走查](/zh-cn/experience/)
 
 devOps
