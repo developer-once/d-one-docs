@@ -19,11 +19,17 @@ npm i @developer-ones/onecli -g
 
 mkdir myapp && cd myapp
 
-# 当前文件路径下 初始化项目
+# 当前文件路径下初始化项目
 one init
 
-# 当前文件路径下 创建模块
+# 初始化 vite ts 项目
+one init vite-react-ts
+
+# 当前文件路径下创建模块
 one create
+
+# 创建 Test 页面
+one create Test
 ```
 
 ### init
