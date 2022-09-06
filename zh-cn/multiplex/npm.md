@@ -1,28 +1,9 @@
 # 私有 npm 搭建
 
-> 采用 [Verdaccio](https://github.com/verdaccio/verdaccio) Docker 部署方式搭建
+> 推荐采用 [Verdaccio](https://github.com/verdaccio/verdaccio) docker 部署方式搭建
+## docker 部署
 
-## 直接安装
-
-```
-npm install --global verdaccio@6-next --registry https://registry.verdaccio.org/
-```
-
-安装完成后，就可以在/node/bin目录下看到一个名为verdacio的文件，这个文件实际指向的是verdaccio包下的build/lib/cli.js。
-
-运行verdaccio:
-
-```
-verdaccio
-
-
-# pm2 后台运行
-pm2 start verdaccio
-```
-
-如果是本地安装，打开浏览器，输入 http://localhost:4873 就可以看到页面
-
-## Docker 部署
+下文会用到 [docker](https://dev-one.cn/#/zh-cn/devops/?id=%e5%ae%89%e8%a3%85-docker) 和 docker-compose 请先根据文档准备好环境和熟悉 [相关基础命令](https://dev-one.cn/#/zh-cn/devops/docker?id=%e5%9f%ba%e7%a1%80%e5%91%bd%e4%bb%a4)。
 
 ###  目录结构
 
@@ -103,3 +84,24 @@ logs: { type: stdout, format: pretty, level: http }
 
 listen: 0.0.0.0:4873
 ```
+
+## 直接安装
+
+```
+npm install --global verdaccio@6-next --registry https://registry.verdaccio.org/
+```
+
+安装完成后，就可以在/node/bin目录下看到一个名为verdacio的文件，这个文件实际指向的是verdaccio包下的build/lib/cli.js。
+
+运行verdaccio:
+
+```
+verdaccio
+
+
+# pm2 后台运行
+pm2 start verdaccio
+```
+
+如果是本地安装，打开浏览器，输入 http://localhost:4873 就可以看到页面
+
