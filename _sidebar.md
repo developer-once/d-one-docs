@@ -17,7 +17,7 @@
 * [OneAPI Mocks](/zh-cn/develop/mock)
 * [Debug](/zh-cn/develop/debug)
 * [前端安全生产](/zh-cn/develop/safe-production)
-* [构建 & build script](/zh-cn/develop/build)
+* [build script](/zh-cn/develop/build)
 
 规范
 * [React 代码规范](/zh-cn/norm/react)

@@ -4,7 +4,7 @@
 
 ## 介绍
 
-[dumi](https://d.umijs.org/zh-CN/guide/basic) 中文发音嘟米，是一款为组件开发场景而生的文档工具。在可复用资产建设的场景下有着非常大的优势。我们推荐使用
+[dumi](https://d.umijs.org/zh-CN/guide/basic) 中文发音嘟米，是一款为组件开发场景而生的文档工具。在可复用资产建设的场景下有着非常大的优势。
 ## 快速开始
 
 
