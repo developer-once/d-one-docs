@@ -87,7 +87,7 @@ listen: 0.0.0.0:4873
 
 ## 直接安装
 
-```
+```shell
 npm install --global verdaccio@6-next --registry https://registry.verdaccio.org/
 ```
 
@@ -95,7 +95,7 @@ npm install --global verdaccio@6-next --registry https://registry.verdaccio.org/
 
 运行verdaccio:
 
-```
+```shell
 verdaccio
 
 
@@ -105,3 +105,32 @@ pm2 start verdaccio
 
 如果是本地安装，打开浏览器，输入 http://localhost:4873 就可以看到页面
 
+
+## 使用
+
+首先安装 nrm ，使用 nrm 管理 npm 源。
+
+```shell
+# 全局安装 nrm
+npm install -g nrm
+
+nrm ls
+# 展示的 npm 源
+npm ---------- https://registry.npmjs.org/
+yarn --------- https://registry.yarnpkg.com/
+tencent ------ https://mirrors.cloud.tencent.com/npm/
+cnpm --------- https://r.cnpmjs.org/
+taobao ------- https://registry.npmmirror.com/
+npmMirror ---- https://skimdb.npmjs.com/registry/
+
+# 切换源
+nrm use <registry>
+# nrm use taobao
+
+# 添加私有 npm 地址
+nrm add <registry> <url>
+# nrm add verdaccio http://xxxxx
+
+# 使用私有 npm 地址
+nrm use verdaccio
+```
