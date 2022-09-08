@@ -42,6 +42,9 @@ D-One 平台
 * [性能优化](/zh-cn/experience/performance)
 * [自查 & 走查](/zh-cn/experience/)
 
+团队
+* [周报机器人🤖️](zh-cn/team/robot)
+
 devOps
 * [环境配置](/zh-cn/devops/)
 * [Nginx 相关](/zh-cn/devops/nginx)
