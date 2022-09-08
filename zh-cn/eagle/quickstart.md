@@ -10,10 +10,10 @@ eagle-eye 是一款全埋点的监控 SDK，只需简单的引入和传入配置
 
 ```js
 // npm install package
-npm i @developer-ones/eagle-eye-sdk -S
+npm i @developer-once/eagle-eye-sdk -S
 
 // app.ts
-import { initMonitor } from '@developer-ones/eagle-eye-sdk';
+import { initMonitor } from '@developer-once/eagle-eye-sdk';
 const monitor = initMonitor({
   app_key: "appkey",
   startTime: new Date().getTime(),

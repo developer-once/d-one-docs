@@ -15,7 +15,7 @@ cli 作为项目初始化的时大幅帮助团队同学提升幸福感的工具�
 one-cli 的使用相当简单，全局安装 one-cli 工具 ，并直接根据需要执行 init/create 命令
 
 ```bash
-npm i @developer-ones/onecli -g
+npm i @developer-once/onecli -g
 
 mkdir myapp && cd myapp
 
@@ -47,3 +47,22 @@ one-cli 提供的 `init` 命令依赖于 [download-git-repo](https://www.npmjs.c
   <img  src="https://cdn.dev-one.cn/one-cli%20create.png?imageMogr2/thumbnail/600x600"/>
   <div>one create 在当前路径下创建对应模块</div>
 </div>
+
+### cz
+
+`one cz` 功能是直接在当前路径下下载并配置 `git-commitizen`
+
+<div style="text-align: center; color: #8A8F8D;">
+  <img  src="https://cdn.dev-one.cn/one-cli%20cz.png?imageMogr2/thumbnail/700x700"/>
+  <div>one cz 在当前路径下下载并配置 git-commitizen</div>
+</div>
+
+
+```json
+// package.json
+"config": {
+  "commitizen": {
+    "path": "./node_modules/cz-conventional-changelog"
+  }
+}
+```

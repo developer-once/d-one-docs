@@ -29,7 +29,9 @@
 
 ## Commit 规范
 
-建议按照如下规则提供每次 commit 信息
+1. 可以使用 one-cli 的 cz 命令针对项目进行 git-commitizen 的一键配置。
+
+2. 手动提交建议按照如下规则提供每次 commit 信息
 
 
 ![](https://cdn.dev-one.cn/git-commit.png?imageMogr2/thumbnail/1000x1000)
