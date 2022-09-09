@@ -37,6 +37,7 @@
 
 D-One 平台
 * [D-One](/zh-cn/d-one/)
+* [私有 Gitlab 搭建](/zh-cn/d-one/gitlab)
 
 体验度量
 * [性能优化](/zh-cn/experience/performance)
