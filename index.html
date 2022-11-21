@@ -95,6 +95,26 @@
   <body>
     <div id="app">D-One 解决项目从新建到发布的全流程平台</div>
 
+    <!-- eagle-eye - 三方CDN资源速度不稳定 -->
+    <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@developer-once/eagle-eye@1.0.2/lib/eagle-eye.js"></script>
+    <script>
+      var config = {
+        // url: 'http://localhost:7001/api/report',
+        // config: 'http://localhost:7001/api/get/config',
+        https: true,
+        record: true,
+        app_key: "b1f7d65ec4250defdc80ac",
+        autoSendPv: true,
+        recordReSoure: false,
+        startTime: new Date().getTime(),
+        globalClick: true,
+        openHeartbeat: false,
+        slowAjaxCost: 700,
+        behaviorMax: 5,
+      };
+      window.monitor = eagleEye(config);
+    </script>
+
     <!-- AD plugin -->
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1/index.js"></script>
 
